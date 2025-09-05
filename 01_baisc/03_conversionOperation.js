@@ -34,5 +34,37 @@ let myScore = 33;
 
 let convertString = String(myScore);
 
-console.log(typeof convertString);
-console.log(convertString);
+// console.log(typeof convertString);
+// console.log(convertString);
+
+
+// ********************* Operation ***********************
+
+let value = 100;
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(9 + 2);
+// console.log(9 - 2);
+// console.log(9 * 2);
+// console.log(9 / 2);
+// console.log(9 ** 2);
+// console.log(9 % 2);
+
+let str1 = "Nirdesh";
+let str2 = "Kumar";
+
+let str3 = str1 + str2;
+
+// console.log(str1 + str2);
+// console.log(str3);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + 2 + 3);
+console.log(1 + 2 + "4");
+
+let gameScore = 99;
+// ++gameScore;
+--gameScore;
+console.log(gameScore);
